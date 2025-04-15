@@ -158,10 +158,11 @@ p {
 
 .image-placeholder{
   height: 180px;
-  background-color: #e0e0e0;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-}
+  width: 300px; 
+  border-radius: 8px;
+  }
 .project-info{
   padding: 16px;
 }
@@ -190,7 +191,7 @@ p {
   font-size: 14px;
 }
 .meusP{
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .tudo{
@@ -209,4 +210,84 @@ p {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 
 
+}
+.contato {
+  display: flex;
+  gap: 40px;
+  background-color: #0b1622;
+  color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.tudo {
+  flex: 1;
+}
+
+.contato h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.meus-contatos a {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: #4f46e5;
+  font-size: 18px;
+  margin-right: 40px;
+}
+s
+/* Lado direito (formulário) */
+.contact-form {
+  flex: 1;
+}
+
+.input {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+input{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #1e293b;
+  background-color: #0f172a;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #4f46e5;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 14px;
+  background-color: #4f46e5;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #4338ca;
 }
